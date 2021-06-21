@@ -7,9 +7,9 @@ Tokens issued by Azure AD are signed using industry standard asymmetric encrypti
 ### This app will validate :
 >1 The claim itself. to ensure that the claim is authenticated and matches your Azure B2C AD configuratiion
 
->2 The Token JWT Signature as All Azure proved tokens are signed, you need to authenticate the signiture to ensure the origin of the toke is Microsoft Azure AD.
+>2 The Token JWT Signature as All Azure B2C AD tokens are signed, you need to authenticate the signiture to ensure the origin of the toke is Microsoft Azure AD.
 
-##Usage
+## Usage
 #### you need to send by POST:
  
     url = the location of your applicatio ninstallation
@@ -29,7 +29,7 @@ Tokens issued by Azure AD are signed using industry standard asymmetric encrypti
         "tenant": "The Tenant Name",
         "token":  "The Token You want to Validate"
 
-###Response 
+### Response 
 #### Success   Http status  Code = 200
     
     {
