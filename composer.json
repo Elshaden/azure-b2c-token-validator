@@ -1,6 +1,12 @@
 {
     "name": "elshaden/azure-b2c-token-validator",
-    "description": "The Laravel Lumen Framework.",
+    "description": "Using Laravel Lumen to provide an API to Validate Azure B2C Token.\n.",
+    "authors": [
+        {
+            "name": "Salah Elabbar"
+
+        }
+    ],
     "keywords": [
         "Azure",
         "laravel",
@@ -8,6 +14,7 @@
         "B2C"  ,
         "Token"
     ],
+
     "license": "MIT",
     "type": "project",
     "require": {
