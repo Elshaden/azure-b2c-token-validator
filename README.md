@@ -15,7 +15,7 @@ Tokens issued by Azure AD are signed using industry standard asymmetric encrypti
 #### you need to send by POST:
  
     url = the location of your applicatio ninstallation
-
+    method = POST
 
     "headers": {
     "Accept": "application/json",
