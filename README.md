@@ -42,7 +42,7 @@ Tokens issued by Azure AD are signed using industry standard asymmetric encrypti
 #### Failed Http status Code = 400
 
     {
-    "token": "Not valid"
+    "token": "not_valid"
     }
 
     
